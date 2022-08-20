@@ -55,9 +55,21 @@ package com.haydar.logickotlin.kotlinfundamental
  */
 
 /* Raw String
+   berfungsi untuk menuliskan multiline dan arbitrary text.
+
+   contoh
 
  */
 
+fun main() {
+    val line = """
+        line 1
+        line 2 
+        line 3
+    """.trimIndent()
+
+    print(line)
+}
 
 
 
