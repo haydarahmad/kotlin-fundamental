@@ -61,7 +61,30 @@ fun main() {
     print(office)
 
 }
+
+  jika ingin kondisinya lebih banyak gunakan (else if)
+
+  contohnya
+
  */
+
+fun main() {
+    val openHours = 7
+    val now = 7
+    val office:String
+
+    office = if (now > 7) {
+        "office always open"
+    } else if (now == openHours ){
+        "wait a minute, office will be open"
+    } else{
+        "office is closed"
+    }
+
+    print(office)
+}
+
+
 
 
 
